@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cristian Portfolio</title>
+</head>
+<body>
+
+    <!-- Pág principal -->
+
+    <div class="container navbar">
+        <header>
+            <div class="lgo">
+                <h1>Cristian</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">C</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">s</span>
+                <span class="m-left name">t</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">n</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>CSS / HTML / JavaScript / SQL / MongoDB</p>
+            <a href="#contact">Contact me</a>
+        </div>
+        <div class="profile-image">
+            <img src="src/profile-image.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Fin Pág principal -->
+
+    <!-- Sobre mí -->
+
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>
+                Extremely motivated to improve and develop my skills by growing professionally. With a solid training in
+                values, a proactive attitude, commitment, creativity, responsibility and the ability to solve any
+                difficulties that arise.
+                Exceptional skills of assertive communication and social work.
+                Successful work in a team environment, as well as independently. Ability to work under pressure and
+                multitasking, ability to follow directions and deliver quality results.
+            </p>
+        </div>
+        <img src="src/dotted-shape.png" alt="">
+    </div>
+
+    <!-- Fin Sobre mí -->
+
+    <!-- Habilidades -->
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">
+            Intermediate knowledge in the different types of operating systems such as Windows and GNU / Linux, other
+            types of software, basic knowledge in Microsoft Office and LibreOffice, Git, HTML and PHP Structure, Design
+            in CSS and Functionalities in JavaScript, Databases such as SQL and MongoDB
+        </p>
+        <div class="progress-bar">
+            <div class="tag-git">
+                <p>Git</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-git"></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="tag-css">
+                <p>CSS</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="tag-javascript">
+                <p>JavaScript</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="tag-sql">
+                <p>SQL</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-sql"></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="tag-mongo">
+                <p>MongoDB</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-mongo"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin Habilidades -->
+
+    <!-- Trabajo -->
+
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Web Animations</button>
+            <button id="database" onclick="showRequiredCategory(this)">DataBase Projects</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="src/1.png" alt=""></a>
+            <a href=""><img src="src/1.png" alt=""></a>
+            <a href=""><img src="src/1.png" alt=""></a>
+            <a href=""><img src="src/1.png" alt=""></a>
+            <a href=""><img src="src/1.png" alt=""></a>
+            <a href=""><img src="src/1.png" alt=""></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="src/2.png" alt=""></a>
+            <a href=""><img src="src/2.png" alt=""></a>
+            <a href=""><img src="src/2.png" alt=""></a>
+            <a href=""><img src="src/2.png" alt=""></a>
+            <a href=""><img src="src/2.png" alt=""></a>
+            <a href=""><img src="src/2.png" alt=""></a>
+        </div>
+        <div class="category-database hideCategory">
+            <a href=""><img src="src/3.png" alt=""></a>
+            <a href=""><img src="src/3.png" alt=""></a>
+            <a href=""><img src="src/3.png" alt=""></a>
+            <a href=""><img src="src/3.png" alt=""></a>
+            <a href=""><img src="src/3.png" alt=""></a>
+            <a href=""><img src="src/3.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Fin Trabajo -->
+
+    <!-- Contactar -->
+
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Portfoliopersonemail@example.com" disabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- Fin Contactar -->
+
+    <footer>
+        <hr>
+        <p>2020 Copyright. All Rights Reserved</p>
+    </footer>
+
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
